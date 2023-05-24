@@ -1,2 +1,4 @@
 # Django-blog
-Create a blog using Django
+
+## Overview
+This is my attempt at building a blog website using Django to resharpen my skills again.
