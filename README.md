@@ -24,8 +24,8 @@ Install project dependencies:
 ```sh
 (venv)$ pip install -r requirements.txt
 ```
-    Note the `(venv)` in front of the prompt. This indicates that this terminal
-session operates in a virtual environment set up by `virtualenv`.
+Note the `(venv)` in front of the prompt. This indicates that this terminal session operates in a virtual environment set up by `virtualenv`.
+
 ---
 Once `pip` has finished installing the dependencies, apply the migrations and run the development server:
 ```sh
@@ -33,9 +33,11 @@ Once `pip` has finished installing the dependencies, apply the migrations and ru
 (venv)$ python manage.py migrate
 (venv)$ python manage.py runserver
 ```
-And navigate to `http://127.0.0.1:8000/article/`.
+And navigate to `http://127.0.0.1:8000/article/`
+
 ---
-If you want to use the admin page at `http://127.0.0.1:8000/admin/` create a superuser:
+If you want to use the admin page, create a superuser:
 ```sh
 (env)$ python manage.py createsuperuser
 ```
+And navigate to `http://127.0.0.1:8000/admin/`
